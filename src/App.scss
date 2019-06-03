@@ -1,0 +1,31 @@
+@import "styles/variables";
+@import "styles/helpers";
+
+$background-color: linear-gradient(
+  135deg,
+  rgba(179, 229, 252, 1) 0%,
+  rgba(179, 229, 252, 1) 50%,
+  rgba(240, 98, 146, 1) 50%,
+  rgba(240, 98, 146, 1) 100%
+);
+$font-color: #78909c;
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: $background-color;
+  font-family: "Rubik", sans-serif;
+  color: $font-color;
+  &-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  @include sm {
+    min-height: 100vh;
+    height: 100%;
+  }
+}

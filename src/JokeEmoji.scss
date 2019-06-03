@@ -1,0 +1,21 @@
+@import "styles/variables";
+@import "styles/helpers";
+
+.JokeEmoji {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 10px 38px rgba(0, 0, 0, 0.2), 0 10px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: all 0.32s;
+  &:hover {
+    box-shadow: unset;
+  }
+  &-emoji {
+    font-size: 24px;
+
+    &:hover {
+      animation: jello-vertical 0.9s both;
+    }
+  }
+}
