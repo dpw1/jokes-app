@@ -37,7 +37,7 @@ export default class JokeList extends Component {
         });
 
         if (!this.seenJokes.has(data.joke)) {
-          jokes.push({ joke: data.joke, id: uuid.v4(), votes: 0 });
+          jokes.push({ joke: data.joke, id: uuid(), votes: 0 });
         } else {
         }
       }
@@ -115,7 +115,7 @@ export default class JokeList extends Component {
           </FlipMove>
           {this.state.loading &&
             Array.from({ length: this.props.howManyJokesToLoad }).map(_ => (
-              <Loader key={uuid.v4()} />
+              <Loader key={uuid()} />
             ))}
         </section>
       </div>
