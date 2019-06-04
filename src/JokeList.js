@@ -22,7 +22,7 @@ export default class JokeList extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
   componentDidMount() {
-    if (!this.state.jokes.length === 0) {
+    if (this.state.jokes.length !== 0) {
       return;
     }
 
