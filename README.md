@@ -1,4 +1,4 @@
-Simple joke web app prototype coded with React + SASS. [Live demo here](http://localhost:3000).
+Simple joke web app prototype coded with React + SASS. [Live demo here](https://dpw1.github.io/jokes-app).
 
 ## Features:
 
