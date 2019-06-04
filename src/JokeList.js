@@ -103,6 +103,10 @@ export default class JokeList extends Component {
           </button>
         </div>
         <section className="JokeList-jokes">
+                    {this.state.loading &&
+            Array.from({ length: this.props.howManyJokesToLoad }).map(_ => (
+              <Loader key={uuid()} />
+            ))}
           <FlipMove enterAnimation="fade" leaveAnimation="fade">
             {this.state.jokes
               .sort((a, b) => b.votes - a.votes)
@@ -116,10 +120,7 @@ export default class JokeList extends Component {
                 />
               ))}
           </FlipMove>
-          {this.state.loading &&
-            Array.from({ length: this.props.howManyJokesToLoad }).map(_ => (
-              <Loader key={uuid()} />
-            ))}
+
         </section>
       </div>
     );
