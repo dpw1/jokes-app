@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jokes-app/static/css/main.ac24086f.chunk.css",
-    "main.js": "/jokes-app/static/js/main.c69232c3.chunk.js",
-    "main.js.map": "/jokes-app/static/js/main.c69232c3.chunk.js.map",
+    "main.js": "/jokes-app/static/js/main.8d8d742d.chunk.js",
+    "main.js.map": "/jokes-app/static/js/main.8d8d742d.chunk.js.map",
     "runtime~main.js": "/jokes-app/static/js/runtime~main.751210b8.js",
     "runtime~main.js.map": "/jokes-app/static/js/runtime~main.751210b8.js.map",
     "static/js/2.e06ef9c1.chunk.js": "/jokes-app/static/js/2.e06ef9c1.chunk.js",
     "static/js/2.e06ef9c1.chunk.js.map": "/jokes-app/static/js/2.e06ef9c1.chunk.js.map",
     "index.html": "/jokes-app/index.html",
-    "precache-manifest.a428953d1cdf1a2a529194a8667e1919.js": "/jokes-app/precache-manifest.a428953d1cdf1a2a529194a8667e1919.js",
+    "precache-manifest.e289bbb119d159e0984f454723c30747.js": "/jokes-app/precache-manifest.e289bbb119d159e0984f454723c30747.js",
     "service-worker.js": "/jokes-app/service-worker.js",
     "static/css/main.ac24086f.chunk.css.map": "/jokes-app/static/css/main.ac24086f.chunk.css.map"
   }
