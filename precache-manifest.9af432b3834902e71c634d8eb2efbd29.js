@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab0c6d8943024189f260806092ad8764",
+    "revision": "250e20901b7be05f199dada0ce43d1ca",
     "url": "/jokes-app/index.html"
   },
   {
-    "revision": "afe85a10647b0dd377d4",
-    "url": "/jokes-app/static/css/main.2569af68.chunk.css"
+    "revision": "6f2d9add677fdcd1413e",
+    "url": "/jokes-app/static/css/main.cb911e00.chunk.css"
   },
   {
     "revision": "2337e18260d18ecd4674",
     "url": "/jokes-app/static/js/2.e06ef9c1.chunk.js"
   },
   {
-    "revision": "afe85a10647b0dd377d4",
-    "url": "/jokes-app/static/js/main.8d8d742d.chunk.js"
+    "revision": "6f2d9add677fdcd1413e",
+    "url": "/jokes-app/static/js/main.67622dc9.chunk.js"
   },
   {
     "revision": "535c3fab462afcd181c4",
