@@ -136,7 +136,16 @@ $padding-sm: 10px;
       transform: translateY(-2px);
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
     }
-
+    &:disabled {
+      cursor: not-allowed;
+      background: linear-gradient(
+        135deg,
+        desaturate(rgba(179, 229, 252, 1), 60%) 0%,
+        desaturate(rgba(179, 229, 252, 1), 60%) 50%,
+        desaturate(rgba(240, 98, 146, 1), 60%) 50%,
+        desaturate(rgba(240, 98, 146, 1), 60%) 100%
+      );
+    }
     @include sm {
       font-size: 1.2rem;
       max-width: 235px;
