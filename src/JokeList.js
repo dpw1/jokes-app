@@ -22,9 +22,12 @@ export default class JokeList extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
   componentDidMount() {
-    if (this.state.jokes.length === 0) {
-      this.loadNewJokes();
+    if (!this.state.jokes.length === 0) {
+      return;
     }
+
+    this.setState({ loading: true });
+    this.loadNewJokes();
   }
 
   async loadNewJokes() {
